@@ -13,6 +13,9 @@ AC_CONFIG_SRCDIR([src/money.c])
 # place to put some extra build scripts installed
 AC_CONFIG_AUX_DIR([build-aux])
 
+# User configuration(local).
+AC_CONFIG_MACRO_DIR([m4])
+
 # fairly severe build strictness
 # change foreign to gnu or gnits to comply with gnu standards
 #AM_INIT_AUTOMAKE([-Wall -Werror foreign 1.9.6])
