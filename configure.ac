@@ -4,6 +4,9 @@
 AC_PREREQ([2.59])
 AC_INIT([Money], [0.3], [check-devel AT lists.sourceforge.net])
 
+# User configuration(local).
+AM_PROG_AR
+
 # unique source file --- primitive safety check 
 AC_CONFIG_SRCDIR([src/money.c])
 
