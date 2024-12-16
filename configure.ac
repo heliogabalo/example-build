@@ -23,6 +23,9 @@ AM_INIT_AUTOMAKE([-Wall -Werror gnu 1.9.6])
 AC_PROG_CC
 AC_PROG_LIBTOOL
 
+# User configuration(local).
+AM_PROG_CC_C_O
+
 # Checks for libraries.
 
 # This macro is defined in check.m4 and tests if check.h and
