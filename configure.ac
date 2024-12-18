@@ -36,7 +36,10 @@ AM_PROG_CC_C_O
 # CHECK_LIBS accordingly.  
 #  AM_PATH_CHECK([MINIMUM-VERSION,
 #                [ACTION-IF-FOUND [, ACTION-IF-NOT-FOUND]]])
-AM_PATH_CHECK()
+#AM_PATH_CHECK()
+
+# User configuration(local).
+PKG_CHECK_MODULES([CHECK], [check >= 0.9.4])
 
 # Checks for header files.
 AC_HEADER_STDC
